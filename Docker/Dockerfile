@@ -27,7 +27,7 @@ name = "sharedtools" \
 centos = "terraform" \
 packer_1.8.0 \
 terraform_1.0.0 \
- created_by="almayusuf"
+created_by="almayusuf"
 
 
 #Keep Container running after deployment
