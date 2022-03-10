@@ -24,9 +24,13 @@ rm terraform*
 # Set Labels 
 LABEL \
 name = "sharedtools" \
-centos = "terraform" \
+centos = "tools" \
 packer_1.8.0 \
 terraform_1.0.0 \
+telnet \
+elinks \
+wget \
+unzip \
 created_by="almayusuf"
 
 
