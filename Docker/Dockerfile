@@ -7,14 +7,10 @@ yum install telnet -y    && \
 #Install elinks
 yum install elinks -y     && \
 #Install wget and unzip
-yum infinity wget unzip -y && \
+yum install wget unzip -y && \
 #Remove Default Centos Packer
-unlink /usr/sbin/packer     && \
+unlink /usr/sbin/packer     
 #Install Hashicorp packer
-
-
-
-
 
 #Keep Container running after deployment
 CMD [ "/usr/bin/sleep", "infinity" ]
