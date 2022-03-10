@@ -2,8 +2,11 @@
 FROM centos:7
 
 
-#Remove Default packer from Centos
+
 RUN \
+#Remove Default packer from Centos
 rm -rf /usr/sbin/packer* && \
 #Install Telnet
-yum install telnet -y
+yum install telnet -y    && \
+#Install elinks
+yum install elinks -y
