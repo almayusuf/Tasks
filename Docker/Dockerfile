@@ -4,7 +4,6 @@ FROM centos:7
 
 #Remove Default packer from Centos
 RUN \
-rm -rf /usr/sbin/packer*
-
+rm -rf /usr/sbin/packer* && \
 #Install Telnet
-yum install telnet -y &&\ 
+yum install telnet -y
